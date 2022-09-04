@@ -16,8 +16,8 @@ namespace SalaryCalculatorApp {
             var culture = CultureInfo.GetCultureInfo("en-US");
 
 
-            // CultureInfo.DefaultThreadCurrentCulture = culture;
-            CultureInfo.DefaultThreadCurrentUICulture = culture;
+            // CultureInfo.DefaultThreadCurrentCulture = culture; 
+            CultureInfo.DefaultThreadCurrentUICulture = culture; 
             Thread.CurrentThread.CurrentUICulture = culture;// System.Globalization.CultureInfo.InvariantCulture;
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
